@@ -1,0 +1,14 @@
+.team{
+    color: white;
+}
+.name-researcher {
+    padding: 8px;
+    background-color: #d3f57f;
+    color:#424241;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,13 @@
+.header {
+    height: 300px;
+    color: white;
+    /* text-align: center; */
+    background-image: url('https://i.ibb.co/WDMgnyP/hero-img.png');
+ padding: 0 50px;
+background-position: right;
+background-repeat: no-repeat;
+background-size: 300px 300px;
+}
+.header h3{
+    width: 500px;
+}
