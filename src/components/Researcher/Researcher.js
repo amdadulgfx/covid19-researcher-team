@@ -5,7 +5,6 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Researcher = (props) => {
     const { name, image, age, salary, profession, country } = props.researcher;
-    // console.log(props.addResearcher[0].isAdded);
 
     return (
         <div className='researcher-details'>
@@ -18,7 +17,7 @@ const Researcher = (props) => {
             <p><b>Country</b> {country}</p>
             <p><b>Salary</b> ${salary}</p>
 
-            <button className='btn-add' onClick={() => { props.handleAddedResearcher(props.researcher) }}><FontAwesomeIcon icon={faUserPlus} /> Add to the Team</button>
+            <button className='btn-add' onClick={() => { props.handleAddedResearcher(props.researcher); }}><FontAwesomeIcon icon={faUserPlus} /> Add to the Team</button>
         </div>
     );
 };
